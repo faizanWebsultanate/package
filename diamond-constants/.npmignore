@@ -1,0 +1,38 @@
+# Source files
+src/
+tests/
+docs/
+scripts/
+
+# Configuration files
+.eslintrc.*
+.prettierrc.*
+jest.config.js
+rollup.config.js
+tsconfig.json
+
+# Development files
+*.test.ts
+*.spec.ts
+coverage/
+.nyc_output
+
+# Git files
+.git/
+.gitignore
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env*
+
+# Cache directories
+node_modules/
+.npm
+.cache/

@@ -1,0 +1,66 @@
+// {
+//     "compilerOptions": {
+//       "target": "ES2020",
+//       "module": "ESNext",
+//       "lib": ["ES2020", "DOM"],
+//       "moduleResolution": "node",
+//       "declaration": true,
+//       "declarationMap": true,
+//       "outDir": "./lib",
+//       "rootDir": "./src",
+//       "strict": true,
+//       "esModuleInterop": true,
+//       "allowSyntheticDefaultImports": true,
+//       "skipLibCheck": true,
+//       "forceConsistentCasingInFileNames": true,
+//       "resolveJsonModule": true,
+//       "isolatedModules": true,
+//       "noEmit": false,
+//     //   "preserveModules": true,
+//       "experimentalDecorators": true,
+//       "emitDecoratorMetadata": true
+//     },
+//     "include": [
+//       "src/**/*"
+//     ],
+//     "exclude": [
+//       "node_modules",
+//       "lib",
+//       "tests",
+//       "**/*.test.ts",
+//       "**/*.spec.ts"
+//     ]
+//   }
+
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "CommonJS", // Change to CommonJS for now
+      "lib": ["ES2020", "DOM"],
+      "moduleResolution": "node",
+      "declaration": true, // Keep declarations enabled
+      "declarationMap": true,
+      "outDir": "./lib", // Output everything to lib/
+      "rootDir": "./src",
+      "strict": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": false,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "lib",
+      "tests",
+      "**/*.test.ts",
+      "**/*.test.ts"
+    ]
+  }
