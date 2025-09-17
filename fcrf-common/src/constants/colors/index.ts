@@ -1,0 +1,1 @@
+export { DiamondColors } from './diamond-colors';
